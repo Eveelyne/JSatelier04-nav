@@ -4,22 +4,21 @@ const btnClose = document.querySelector('.btn-close');
 
 
 /**
- * @description Fonction
+ * @description Fonction ouvrant la modale.
  */
 function openOverlay() {
     overlay.classList.add('open--overlay');
 }
 
-
 /**
- * @description Fonction
+ * @description Méthode fermant la modale au clic du bouton X.
  */
 btnClose.addEventListener('click', () => {
     overlay.classList.toggle('open--overlay');
 })
 
 /**
- * @description Fonction
+ * @description Méthode ouvrant la modale au clic du menu burger.
  */
 menuBurger.addEventListener('click', () => {
     openOverlay();

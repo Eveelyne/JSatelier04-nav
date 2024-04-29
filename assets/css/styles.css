@@ -168,7 +168,9 @@ button:hover, button:focus, a:focus, a:hover {
 }
 
 @media screen and (min-width: 768px) {
-
+    .fa-bars {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1024px) {
