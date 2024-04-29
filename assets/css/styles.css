@@ -164,16 +164,12 @@ button:hover, button:focus, a:focus, a:hover {
 }
 
 @media screen and (min-width: 640px) {
-
-}
-
-@media screen and (min-width: 768px) {
     .fa-bars {
-        display: none;
+        display: inline-block;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .logo {
         width: 4rem;
     }
@@ -199,4 +195,8 @@ button:hover, button:focus, a:focus, a:hover {
     .fa-bars {
         display: none;
     }
+}
+
+@media screen and (min-width: 1024px) {
+
 }
